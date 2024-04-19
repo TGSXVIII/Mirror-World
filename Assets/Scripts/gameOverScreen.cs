@@ -15,13 +15,13 @@ public class gameOverScreen : MonoBehaviour
         btn.onClick.AddListener(restartGame);
     }
 
-    private void restartGame()
+    public void restartGame()
     {
         EditorSceneManager.LoadScene(EditorSceneManager.GetActiveScene().buildIndex);
     }
 
-    private void quitGame()
+    public void quitGame()
     {
-        
+
     }
 }
